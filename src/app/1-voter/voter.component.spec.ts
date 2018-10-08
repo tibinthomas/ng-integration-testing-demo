@@ -42,7 +42,7 @@ describe('VoterComponent', () => {
   it('should increase the total votes when I click the upvote', () => {
     const upVoteButton = fixture.debugElement.query(By.css('.glyphicon-menu-up'));
     upVoteButton.triggerEventHandler('click', null);
-    expect(component.totalVotes).toBe(null);
+    expect(component.totalVotes).toBe(1);
 
 
 });
