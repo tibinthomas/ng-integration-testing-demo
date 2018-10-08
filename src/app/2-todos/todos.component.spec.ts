@@ -8,7 +8,7 @@ import { TodoService } from './todo.service';
 import { HttpModule } from '@angular/http';
 import { from } from 'rxjs';
 
-describe('TodosComponent', () => {
+xdescribe('TodosComponent', () => {
   let component: TodosComponent;
   let fixture: ComponentFixture<TodosComponent>;
 
